@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Rubik');
+
+body {
+  font-family: 'Rubik', sans-serif !important;
+  background-color: #1e2228;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 15px;
+}
+
+p {
+  opacity: 0.5;
+  margin-top: -10px;
+  color: rgba(41, 206, 179, 1);
+}
+
+header {
+  background-color: #1e2228;
+  color: #fff;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  background-color: #252a31;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.0);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.01);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  background-color: #252a31;
+  color: #fff;
+  border: 2px solid rgba(41, 206, 179, 1)
+}
+
+label {
+  color: rgba(41, 206, 179, 1);
+}
+
+th {
+  color: rgba(41, 206, 179, 1);
+}
+
+td strong {
+  color: #db2d43;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(41, 206, 179, 0.05);
+}
+
+.table th,
+.table td {
+  border-top: none !important;
+}
